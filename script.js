@@ -19,7 +19,7 @@
    0. CONFIG
    ------------------------------------------------------------------------- */
 const DATA_FILES = {
-  gn:        'data/GND_layer.geojson',
+  gn:        'data/GND_layer_n.geojson',
   Hospitals: 'data/Hospitals.geojson',
   Schools:   'data/Schools.geojson',
   Banks:     'data/Banks.geojson',
@@ -30,7 +30,7 @@ const DATA_FILES = {
 // Field names on the gn polygon layer (edit here if your schema differs)
 const FIELD = {
   name:        'ADM4_EN',
-  population:  'Colombo_1',
+  population:  'Colombo_GN_Population_Population',
   accessibility: 'AI',
   priority:    'priority_i'
 };
